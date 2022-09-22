@@ -37,7 +37,7 @@ function onItemClick(e) {
 
   const instance = basicLightbox.create(`
     <div class="modal">
-        <img src = '${urlCurrentImage}' width = 960/>
+        <img src = '${urlCurrentImage}' width = "800" height = "600"/>
     </div>
 `);
 
