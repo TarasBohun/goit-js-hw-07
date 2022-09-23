@@ -48,6 +48,7 @@ function onItemClick(e) {
   function onCloseModal(e) {
     if (e.code === "Escape") {
       instance.close();
+      window.removeEventListener("keydown", onCloseModal);
     }
   }
 }
